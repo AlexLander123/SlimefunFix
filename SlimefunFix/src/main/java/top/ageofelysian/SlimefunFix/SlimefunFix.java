@@ -105,6 +105,7 @@ public final class SlimefunFix extends JavaPlugin {
                             } else {
                                 Bukkit.getLogger().info("Tried to fix items but none found.");
                             }
+                            return true;
                         }
                     } else {
                         player.sendMessage(ChatColor.DARK_RED + "You do not have enough permissions to perform this command.");
